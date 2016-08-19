@@ -9,9 +9,8 @@
 // -----------------------------------------------------------------------------
 
 .productCarousel { // 1
-    @include grid-row(
-        $behavior: nest
-    );
+    @include grid-row($behavior: nest);
+    margin-bottom: spacing("single");
 }
 
 .productCarousel-slide { // 1
@@ -27,9 +26,5 @@
 
     @include breakpoint("large") {
         width: grid-calc(2, $total-columns);
-    }
-
-    .card {
-        margin-bottom: 0;
     }
 }
