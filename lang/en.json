@@ -681,7 +681,8 @@
         "unsubscribed_message": "You will no longer receive marketing emails from <b>{store_name}</b>"
     },
     "social": {
-        "connect": "Connect With Us"
+        "connect": "Connect With Us",
+        "instagram": "Tag #VIDASOLEIL on instagram for a chance to be featured on our gallery"
     },
     "errors": {
         "shipping_quote_failure": "There was a problem retrieving your shipping quote",
